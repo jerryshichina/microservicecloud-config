@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+      -dev
+---
+spring:
+  profiles: dev #开发环境
+  appliction:
+    name: microservicecloud-config-shb-dev
+---
+
+spring:
+  profiles: test
+  appliction:
+    name: microservicecloud-config-shb-test
